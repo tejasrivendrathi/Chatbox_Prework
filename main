@@ -1,18 +1,21 @@
-name = input("What's your name?")
-age = input(f"Hello, {name}. How old are you?")
-print("{age} is a cool number! How can I help you today?")
-int(input("Pick a choice 1-4")) 
-while True: 
-  if choice == 1: 
-    print("Nothing happened.") 
-  if choice == 2: 
-      print("Still nothing..."); 
-  if choice == 3: 
-    print("3 is my lucky number!");
-  else: 
-    print("That's all, bye!")
-    break
+name = input("What's your name? ")
+age = input(f"Hello, {name}. How old are you? ")
+print(f"{age} is a cool number! How can I help you today?")
 
+while True:
+    choice = int(input("Pick a choice 1-4: "))
+
+    if choice == 1:
+        print("Nothing happened.")
+    elif choice == 2:
+        print("Still nothing...")
+    elif choice == 3:
+        print("3 is my lucky number!")
+    elif choice == 4:
+        print("That's all, bye!")
+        break
+    else:
+        print("Invalid choice, please pick between 1 and 4.")
 
 
 
