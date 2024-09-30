@@ -1,0 +1,29 @@
+name = input("What's your name?")
+age = input(f"Hello, {name}. How old are you?")
+print("{age} is a cool number! How can I help you today?")
+int(input("Pick a choice 1-4")) 
+while True: 
+  if choice == 1: 
+    print("Nothing happened.") 
+  if choice == 2: 
+      print("Still nothing..."); 
+  if choice == 3: 
+    print("3 is my lucky number!");
+  else: 
+    print("That's all, bye!")
+    break
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
