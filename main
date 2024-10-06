@@ -1,3 +1,4 @@
+print("Welcome! I'm your ChatBot!") 
 name = input("What's your name? ")
 age = input(f"Hello, {name}. How old are you? ")
 print(f"{age} is a cool number! How can I help you today?")
